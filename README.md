@@ -700,3 +700,50 @@ So now that we've got our model into production are we done? No! We want to make
 
 
 ==== THIS IS A TEST ======
+MD syntax relative path
+![image](readme_images/SearchIndex.png)
+
+MD syntax relative path - raw
+![image](raw/latest/readme_images/SearchIndex.png?inline=true)
+
+Absolute path HTML
+<p align="center">
+<img src = https://github.com/bdmogal/MLOps-Best-Practices/blob/main/readme_images/SearchIndex.png width="800">
+</p>
+
+Absolute path HTML - raw
+<p align="center">
+<img src = https://github.com/bdmogal/MLOps-Best-Practices/blob/main/readme_images/SearchIndex.png?raw=true width="800">
+</p>
+
+Absolute path HTML - quoted
+<p align="center">
+<img src = "https://github.com/bdmogal/MLOps-Best-Practices/blob/main/readme_images/SearchIndex.png" width="800">
+</p>
+
+Absolute path HTML - raw - quoted
+<p align="center">
+<img src = "https://github.com/bdmogal/MLOps-Best-Practices/blob/main/readme_images/SearchIndex.png?raw=true" width="800">
+</p>
+
+Relative path HTML
+<p align="center">
+<img src = readme_images/SearchIndex.png width="800">
+</p>
+
+Relative path HTML - raw
+<p align="center">
+<img src = readme_images/SearchIndex.png?raw=true width="800">
+</p>
+
+Relative path HTML - quoted
+<p align="center">
+<img src = "readme_images/SearchIndex.png" width="800">
+</p>
+
+Relative path HTML - raw - quoted
+<p align="center">
+<img src = "readme_images/SearchIndex.png?raw=true" width="800">
+</p>
+
+======= END OF TEST =========
